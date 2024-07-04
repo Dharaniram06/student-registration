@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="registrationForm" action="#" method="POST">
+            <center><h3>Student Registration Form</h3></center>
+            
+            <div class="form-group">
+                <label for="register number">Register Number:</label>
+                <input type="register number" id="register number" name="register number" required>
+            </div>
+            <div class="form-group">
+                <label for="fullName">Full Name :</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+            
+            
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">Select department</option>
+                    <option value="CSE">CSE</option>
+                    <option value="IT">IT</option>
+                     <option value="ECE">ECE</option>
+                      <option value="CIVIL">CIVIL</option>
+                       <option value="EEE">EEE</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="marks">10th marks(%) :</label>
+                <input type="text" id="marks" name="marks" required>
+            </div>
+             <div class="form-group">
+                <label for="marks">12th marks(%) :</label>
+                <input type="text" id="marks" name="marks" required>
+            </div>
+            <div class="form-group">
+                <label for="marks">Degree Percentage:</label>
+                <input type="text" id="marks" name="marks" required>
+            </div>
+            <button type="submit">Register</button>
+            <button type="cancel">Cancel</button>
+        </form>
+    </div>
+</body>
+</html>
